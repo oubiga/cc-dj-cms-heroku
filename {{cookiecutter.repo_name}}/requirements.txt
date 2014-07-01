@@ -17,3 +17,4 @@
 {{cookiecutter.requirements_django-crispy-forms}}
 {{cookiecutter.requirements_crispy-forms-foundation}}
 {{cookiecutter.requirements_dj-libcloud}}
+{{cookiecutter.requirements_django-braces}}

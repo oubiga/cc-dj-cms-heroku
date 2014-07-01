@@ -33,4 +33,5 @@
     "requirements_django-crispy-forms": "django-crispy-forms==1.4.0",
     "requirements_crispy-forms-foundation": "crispy-forms-foundation==0.3.4",
     "requirements_dj-libcloud": "dj-libcloud==0.2.0",
+    "requirements_django-braces": "django-braces==1.4.0",
 }
