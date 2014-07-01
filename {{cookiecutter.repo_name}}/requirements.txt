@@ -18,3 +18,6 @@
 {{cookiecutter.requirements_crispy-forms-foundation}}
 {{cookiecutter.requirements_dj-libcloud}}
 {{cookiecutter.requirements_django-braces}}
+{{cookiecutter.requirements_django-debug-toolbar}}
+
+
