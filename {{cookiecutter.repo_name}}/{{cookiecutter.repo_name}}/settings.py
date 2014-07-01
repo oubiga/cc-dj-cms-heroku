@@ -82,6 +82,7 @@ DATABASES['default'] = dj_database_url.config()
 
 # Application definition
 INSTALLED_APPS = (
+    'djangocms_admin_style',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -89,6 +90,15 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'djangocms_text_ckeditor',
+    'cms',
+    'mptt',
+    'menus',
+    'sekizai',
+    'djangocms_file',
+    'braces',
+    'crispy_forms',
+    'crispy_forms_foundation',
 )
 
 # List of locations of the template source files, in search order.
