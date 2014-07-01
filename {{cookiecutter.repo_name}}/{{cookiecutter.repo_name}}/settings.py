@@ -99,6 +99,7 @@ INSTALLED_APPS = (
     'braces',
     'crispy_forms',
     'crispy_forms_foundation',
+    'debug_toolbar.apps.DebugToolbarConfig',
 )
 
 # List of locations of the template source files, in search order.
@@ -131,6 +132,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 # this middleware classes will be applied in the order given, and in the
 # response phase the middleware will be applied in reverse order.
 MIDDLEWARE_CLASSES = (
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -190,9 +192,12 @@ LIBCLOUD_PROVIDERS = {
 
 DEFAULT_LIBCLOUD_PROVIDER = 'amazon_s3_eu_west'
 
+########################
+# DJANGO DEBUG TOOLBAR #
+########################
 
-
-
+# Tell the toolbar not to adjust your settings automatically
+DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
 
 
