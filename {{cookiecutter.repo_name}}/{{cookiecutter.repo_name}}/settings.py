@@ -96,6 +96,7 @@ INSTALLED_APPS = (
     'menus',
     'sekizai',
     'djangocms_file',
+    'reversion',
     'braces',
     'crispy_forms',
     'crispy_forms_foundation',
