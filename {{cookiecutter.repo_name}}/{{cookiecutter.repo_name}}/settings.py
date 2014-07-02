@@ -147,18 +147,16 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.language.LanguageCookieMiddleware',
 )
 
-ROOT_URLCONF = '{{ project_name }}.urls'
+ROOT_URLCONF = '{{ cookiecutter.repo_name }}.urls'
 
 # The Python dotted path to the WSGI application that Django's internal servers
 # (runserver, runfcgi) will use. If `None`, the return value of
 # 'django.core.wsgi.get_wsgi_application' is used, thus preserving the same
 # behavior as previous versions of Django. Otherwise this should point to an
 # actual WSGI application object.
-WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
-
+WSGI_APPLICATION = '{{ cookiecutter.repo_name }}.wsgi.application'
 
 MEDIA_ROOT = root('media')
-MEDIA_URL = '/media/'
 
 
 ###############
@@ -168,10 +166,6 @@ MEDIA_URL = '/media/'
 # Absolute path to the directory static files should be collected to.
 # Example: "/var/www/example.com/static/"
 STATIC_ROOT = root('staticfiles')
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/{{ docs_version }}/howto/static-files/
-STATIC_URL = '/static/'
 
 # A list of locations of additional static files
 STATICFILES_DIRS = (
@@ -186,12 +180,20 @@ LIBCLOUD_PROVIDERS = {
         'type': 'libcloud.storage.types.Provider.S3_EU_WEST',
         'user': os.environ.get('AWS_ACCESS_KEY'),
         'key': os.environ.get('AWS_SECRET_KEY'),
-        'bucket': '{{cookiecutter.aws_bucket_name}}',
+        'bucket': '{{ cookiecutter.aws_bucket_name }}',
         'secure': True,
     },
 }
 
 DEFAULT_LIBCLOUD_PROVIDER = 'amazon_s3_eu_west'
+
+if not DEBUG:
+    STATIC_URL = 'http://s3-website-eu-west-1.amazonaws.com/{{ cookiecutter.aws_bucket_name }}/static/'
+    MEDIA_URL = 'http://s3-website-eu-west-1.amazonaws.com/{{ cookiecutter.aws_bucket_name }}/media/'
+else:
+    STATIC_URL = '/static/'
+    MEDIA_URL = '/media/'
+
 
 ########################
 # DJANGO DEBUG TOOLBAR #
