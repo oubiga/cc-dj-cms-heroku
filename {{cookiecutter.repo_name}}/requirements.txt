@@ -2,22 +2,22 @@
 {{cookiecutter.requirements_gunicorn}}
 {{cookiecutter.requirements_psycopg2}}
 {{cookiecutter.requirements_honcho}}
-{{cookiecutter.requirements_dj-database-url}}
-{{cookiecutter.requirements_django-cms}}
-{{cookiecutter.requirements_django-classy-tags}}
+{{cookiecutter.requirements_dj_database_url}}
+{{cookiecutter.requirements_django_cms}}
+{{cookiecutter.requirements_django_classy_tags}}
 {{cookiecutter.requirements_html5lib}}
-{{cookiecutter.requirements_django-mptt}}
-{{cookiecutter.requirements_django-sekizai}}
-{{cookiecutter.requirements_djangocms-admin-style}}
-{{cookiecutter.requirements_djangocms-text-ckeditor}}
+{{cookiecutter.requirements_django_mptt}}
+{{cookiecutter.requirements_django_sekizai}}
+{{cookiecutter.requirements_djangocms_admin_style}}
+{{cookiecutter.requirements_djangocms_text_ckeditor}}
 {{cookiecutter.requirements_pillow}}
-{{cookiecutter.requirements_django-filer}}
-{{cookiecutter.requirements_cmsplugin-filer}}
-{{cookiecutter.requirements_django-reversion}}
-{{cookiecutter.requirements_django-crispy-forms}}
-{{cookiecutter.requirements_crispy-forms-foundation}}
-{{cookiecutter.requirements_dj-libcloud}}
-{{cookiecutter.requirements_django-braces}}
-{{cookiecutter.requirements_django-debug-toolbar}}
+{{cookiecutter.requirements_django_filer}}
+{{cookiecutter.requirements_cmsplugin_filer}}
+{{cookiecutter.requirements_django_reversion}}
+{{cookiecutter.requirements_django_crispy_forms}}
+{{cookiecutter.requirements_crispy_forms_foundation}}
+{{cookiecutter.requirements_dj_libcloud}}
+{{cookiecutter.requirements_django_braces}}
+{{cookiecutter.requirements_django_debug_toolbar}}
 
 
