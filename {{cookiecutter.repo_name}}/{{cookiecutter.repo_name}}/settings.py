@@ -40,6 +40,9 @@ INTERNAL_IPS = ('127.0.0.1', '::1', '0.0.0.0')
 # "*" matches anything, ".example.com" matches example.com and all subdomains
 ALLOWED_HOSTS = ['*']
 
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 SITE_ID = 1
 
 # Local time zone for this installation. All choices can be found here:
@@ -201,22 +204,3 @@ else:
 
 # Tell the toolbar not to adjust your settings automatically
 DEBUG_TOOLBAR_PATCH_SETTINGS = False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
