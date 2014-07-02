@@ -97,7 +97,13 @@ INSTALLED_APPS = (
     'mptt',
     'menus',
     'sekizai',
-    'djangocms_file',
+    'filer',
+    'easy_thumbnails',
+    'cmsplugin_filer_file',
+    'cmsplugin_filer_folder',
+    'cmsplugin_filer_image',
+    'cmsplugin_filer_teaser',
+    'cmsplugin_filer_video',
     'reversion',
     'braces',
     'crispy_forms',
@@ -201,3 +207,17 @@ else:
 
 # Tell the toolbar not to adjust your settings automatically
 DEBUG_TOOLBAR_PATCH_SETTINGS = False
+
+
+################
+# django-filer #
+################
+
+THUMBNAIL_HIGH_RESOLUTION = True
+THUMBNAIL_PROCESSORS = (
+    'easy_thumbnails.processors.colorspace',
+    'easy_thumbnails.processors.autocrop',
+    #'easy_thumbnails.processors.scale_and_crop',
+    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
+    'easy_thumbnails.processors.filters',
+)
