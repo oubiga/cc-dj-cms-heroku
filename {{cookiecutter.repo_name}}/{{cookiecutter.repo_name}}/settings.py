@@ -14,6 +14,8 @@ from os.path import join, abspath, dirname
 gettext = lambda s: s
 import dj_database_url
 
+
+
 here = lambda *x: join(abspath(dirname(__file__)), *x)
 PROJECT_ROOT = here('..',)
 root = lambda *x: join(abspath(PROJECT_ROOT), *x)
@@ -77,10 +79,7 @@ USE_L10N = True
 
 # Database
 # https://docs.djangoproject.com/en/{{ docs_version }}/ref/settings/#databases
-DATABASES = {
-    'default': {}
-}
-
+DATABASES = {}
 DATABASES['default'] = dj_database_url.config()
 
 # Application definition
@@ -129,8 +128,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'sekizai.context_processors.sekizai',
     'cms.context_processors.cms_settings',
 )
-
-
 
 # List of middleware classes to use. Order is important; in the request phase,
 # this middleware classes will be applied in the order given, and in the

@@ -34,5 +34,5 @@
     "requirements_crispy-forms-foundation": "crispy-forms-foundation==0.3.4",
     "requirements_dj-libcloud": "dj-libcloud==0.2.0",
     "requirements_django-braces": "django-braces==1.4.0",
-    "requirements_django-debug-toolbar": "django-debug-toolbar==1.2.1",
+    "requirements_django-debug-toolbar": "django-debug-toolbar==1.2.1"
 }
