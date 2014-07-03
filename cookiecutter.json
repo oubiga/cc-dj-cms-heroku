@@ -28,8 +28,7 @@
     "requirements_djangocms_text_ckeditor": "djangocms-text-ckeditor==2.1.6",
     "requirements_pillow": "Pillow==2.4.0",
     "requirements_django_filer": "django-filer==0.9.6",
-    "requirements_cmsplugin_filer": "-e git+https://github.com/stefanfoulis/cmsplugin-filer.git@develop#egg=cmsplugin-filer
-",
+    "requirements_cmsplugin_filer": "-e git+https://github.com/stefanfoulis/cmsplugin-filer.git@develop#egg=cmsplugin-filer",
     "requirements_django_reversion": "django-reversion==1.8.1",
     "requirements_django_crispy_forms": "django-crispy-forms==1.4.0",
     "requirements_crispy_forms_foundation": "crispy-forms-foundation==0.3.4",
