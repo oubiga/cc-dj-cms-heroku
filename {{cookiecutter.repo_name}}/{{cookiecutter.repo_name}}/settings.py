@@ -189,11 +189,11 @@ LIBCLOUD_PROVIDERS = {
 DEFAULT_LIBCLOUD_PROVIDER = 'amazon_s3_eu_west'
 
 if not DEBUG:
-    STATIC_URL = 'http://s3-website-eu-west-1.amazonaws.com/{{ cookiecutter.aws_bucket_name }}/static/'
+    STATIC_URL = 'http://s3-website-eu-west-1.amazonaws.com/{{ cookiecutter.aws_bucket_name }}/'
     MEDIA_URL = 'http://s3-website-eu-west-1.amazonaws.com/{{ cookiecutter.aws_bucket_name }}/media/'
 else:
-    STATIC_URL = '/static/'
-    MEDIA_URL = '/media/'
+    STATIC_URL = 'http://s3-website-eu-west-1.amazonaws.com/{{ cookiecutter.aws_bucket_name }}/'
+    MEDIA_URL = 'http://s3-website-eu-west-1.amazonaws.com/{{ cookiecutter.aws_bucket_name }}/media/'
 
 
 ########################

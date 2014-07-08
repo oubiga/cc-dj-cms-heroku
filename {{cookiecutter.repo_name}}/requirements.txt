@@ -16,6 +16,6 @@
 {{cookiecutter.requirements_django_reversion}}
 {{cookiecutter.requirements_django_crispy_forms}}
 {{cookiecutter.requirements_crispy_forms_foundation}}
-{{cookiecutter.requirements_dj_libcloud}}
+{{cookiecutter.requirements_whitenoise}}
 {{cookiecutter.requirements_django_braces}}
 {{cookiecutter.requirements_django_debug_toolbar}}
