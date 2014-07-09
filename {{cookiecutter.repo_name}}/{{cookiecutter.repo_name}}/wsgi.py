@@ -10,5 +10,8 @@ https://docs.djangoproject.com/en/{{ cookiecutter.django_version }}/howto/deploy
 import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ cookiecutter.repo_name }}.settings")
 
+
 from django.core.wsgi import get_wsgi_application
+from whitenoise.django import DjangoWhiteNoise
 application = get_wsgi_application()
+application = DjangoWhiteNoise(application)
