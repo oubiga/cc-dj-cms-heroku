@@ -34,5 +34,6 @@
     "requirements_crispy_forms_foundation": "crispy-forms-foundation==0.3.4",
     "requirements_whitenoise": "whitenoise==1.0.3",
     "requirements_django_braces": "django-braces==1.4.0",
-    "requirements_django_debug_toolbar": "django-debug-toolbar==1.2.1"
+    "requirements_django_debug_toolbar": "django-debug-toolbar==1.2.1",
+    "requirements_django_taggit": "django-taggit==0.12"
 }

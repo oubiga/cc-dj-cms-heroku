@@ -19,3 +19,4 @@
 {{cookiecutter.requirements_whitenoise}}
 {{cookiecutter.requirements_django_braces}}
 {{cookiecutter.requirements_django_debug_toolbar}}
+{{cookiecutter.requirements_django_taggit}}
