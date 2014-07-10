@@ -68,6 +68,32 @@ LANGUAGES = (
     ('gl', gettext('galician')),
 )
 
+CMS_LANGUAGES = {
+    1: [
+        {
+            'code': 'en',
+            'name': gettext('English'),
+        },
+
+        {
+            'code': 'es',
+            'name': gettext('Spanish'),
+        },
+
+        {
+            'code': 'gl',
+            'name': gettext('Galician'),
+
+        },
+    ],
+    'default': {
+        'fallbacks': ['en', 'es', 'gl'],
+        'public': True,
+        'hide_untranslated': False,
+        'redirect_on_fallback': True,
+    },
+}
+
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
