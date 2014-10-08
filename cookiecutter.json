@@ -19,7 +19,7 @@
     "requirements_psycopg2": "psycopg2==2.5.3",
     "requirements_honcho": "honcho==0.5.0",
     "requirements_dj_database_url": "dj-database-url==0.3.0",
-    "requirements_django_cms": "django-cms==3.0.3",
+    "requirements_django_cms": "django-cms==3.0.6",
     "requirements_django_classy_tags": "django-classy-tags==0.5.1",
     "requirements_html5lib": "html5lib==0.999",
     "requirements_django_mptt": "django-mptt==0.6.1",
