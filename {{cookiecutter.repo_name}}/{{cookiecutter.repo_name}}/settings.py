@@ -130,8 +130,6 @@ INSTALLED_APPS = (
     'reversion',
     'braces',
     'taggit',
-    'crispy_forms',
-    'crispy_forms_foundation',
     'debug_toolbar.apps.DebugToolbarConfig',
 )
 
