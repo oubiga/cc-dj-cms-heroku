@@ -120,7 +120,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'djangocms_text_ckeditor',
+    'djangocms_text_ckeditor', # Before 'cms' entry
     'cms',
     'mptt',
     'menus',
