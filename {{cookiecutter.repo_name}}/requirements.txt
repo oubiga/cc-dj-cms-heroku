@@ -3,6 +3,7 @@
 {{cookiecutter.requirements_psycopg2}}
 {{cookiecutter.requirements_honcho}}
 {{cookiecutter.requirements_dj_database_url}}
+{{cookiecutter.requirements_dj_static}}
 {{cookiecutter.requirements_django_cms}}
 {{cookiecutter.requirements_django_classy_tags}}
 {{cookiecutter.requirements_html5lib}}
@@ -14,7 +15,7 @@
 {{cookiecutter.requirements_django_filer}}
 {{cookiecutter.requirements_cmsplugin_filer}}
 {{cookiecutter.requirements_django_reversion}}
-{{cookiecutter.requirements_whitenoise}}
+{{cookiecutter.requirements_dj_libcloud}}
 {{cookiecutter.requirements_django_braces}}
 {{cookiecutter.requirements_django_debug_toolbar}}
 {{cookiecutter.requirements_django_taggit}}

@@ -19,6 +19,7 @@
     "requirements_psycopg2": "psycopg2==2.5.4",
     "requirements_honcho": "honcho==0.5.0",
     "requirements_dj_database_url": "dj-database-url==0.3.0",
+    "requirements_dj_static": "dj-static==0.0.6",
     "requirements_django_cms": "django-cms==3.0.6",
     "requirements_django_classy_tags": "django-classy-tags==0.5.1",
     "requirements_html5lib": "html5lib==0.999",
@@ -30,7 +31,7 @@
     "requirements_django_filer": "django-filer==0.9.7",
     "requirements_cmsplugin_filer": "cmsplugin-filer==0.10",
     "requirements_django_reversion": "django-reversion==1.8.1",
-    "requirements_whitenoise": "whitenoise==1.0.3",
+    "requirements_dj_libcloud": "dj-libcloud==0.2.0",
     "requirements_django_braces": "django-braces==1.4.0",
     "requirements_django_debug_toolbar": "django-debug-toolbar==1.2.1",
     "requirements_django_taggit": "django-taggit==0.12.2"
