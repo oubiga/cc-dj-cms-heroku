@@ -8,7 +8,7 @@
     "domain_name": "example.com",
     "project_version": "0.1.0",
     "django_version": "1.7",
-    "python_version": "python-3.3.5",
+    "python_version": "python-3.3.6",
     "django_secret_key": "xxxxxxxxxxxxxxxxxxxx",
     "database_url": "postgres://USER:PASSWORD@HOST:PORT/NAME",
     "aws_access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
