@@ -2,318 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca0dc07f-e931-4dad-9a66-0be372cfbcfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/bootstrap/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/glyphicons-halflings-regular.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/foundation-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/foundation-icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/foundation-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/foundation-icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/foundation-icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-address-book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-alert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-align-center.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-align-justify.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-align-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-align-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-anchor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-annotate.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-archive.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrow-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrow-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrows-compress.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrows-expand.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrows-in.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-arrows-out.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-asl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-asterisk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-at-sign.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-background-color.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-battery-empty.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-battery-full.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-battery-half.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-bitcoin-circle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-bitcoin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-blind.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-bluetooth.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-book-bookmark.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-bookmark.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-braille.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-burst-new.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-burst-sale.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-burst.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-camera.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-check.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-checkbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-clipboard-notes.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-clipboard-pencil.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-clipboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-closed-caption.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-comment-minus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-comment-quotes.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-comment-video.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-comment.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-comments.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-compass.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-contrast.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-credit-card.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-crop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-crown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-css3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-database.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-die-five.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-die-four.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-die-one.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-die-six.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-die-three.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-die-two.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-dislike.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-dollar-bill.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-dollar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-eject.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-elevator.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-euro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-eye.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-fast-forward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-female-symbol.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-female.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-filter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-first-aid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-flag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-folder-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-folder-lock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-folder.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-foot.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-foundation.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-graph-bar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-graph-horizontal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-graph-pie.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-graph-trend.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-guide-dog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-hearing-aid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-heart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-home.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-html5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-indent-less.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-indent-more.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-info.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-italic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-key.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-laptop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-layout.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-lightbulb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-like.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-link.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-list-bullet.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-list-number.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-list-thumbnails.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-list.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-lock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-loop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-magnifying-glass.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-male-female.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-male-symbol.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-male.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-marker.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-megaphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-microphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-minus-circle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-minus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-mobile-signal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-mobile.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-monitor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-mountains.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-music.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-next.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-no-dogs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-no-smoking.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-copy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-csv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-doc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-edit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-export-csv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-export-doc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-export-pdf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-export.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-filled.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-multiple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-pdf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page-search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-page.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-paint-bucket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-paperclip.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-pause.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-paw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-paypal.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-pencil.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-photo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-play-circle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-play-video.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-pound.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-power.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-previous.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-price-tag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-pricetag-multiple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-print.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-prohibited.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-projection-screen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-puzzle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-quote.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-record.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-refresh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-results-demographics.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-results.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-rewind-ten.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-rewind.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-rss.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-safety-cone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-save.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-share.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-sheriff-badge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-shield.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-shopping-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-shopping-cart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-shuffle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-skull.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-500px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-adobe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-amazon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-android.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-apple.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-behance.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-bing.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-blogger.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-delicious.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-designer-news.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-deviant-art.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-digg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-dribbble.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-drive.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-dropbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-evernote.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-flickr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-forrst.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-foursquare.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-game-center.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-github.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-google-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-hacker-news.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-hi5.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-instagram.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-joomla.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-lastfm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-linkedin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-medium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-myspace.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-orkut.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-path.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-picasa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-pinterest.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-rdio.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-reddit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-skillshare.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-skype.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-smashing-mag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-snapchat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-spotify.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-squidoo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-stack-overflow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-steam.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-stumbleupon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-treehouse.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-tumblr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-vimeo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-windows.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-xbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-yahoo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-yelp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-youtube.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-zerply.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-social-zurb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-sound.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-stop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-strikethrough.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-subscript.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-superscript.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-tablet-landscape.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-tablet-portrait.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-target-two.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-target.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-telephone-accessible.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-telephone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-text-color.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-thumbnails.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-ticket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torso-business.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torso-female.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torso.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torsos-all-female.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torsos-all.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torsos-female-male.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torsos-male-female.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-torsos.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-trash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-trees.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-trophy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-underline.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-universal-access.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-unlink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-unlock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-upload-cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-usb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-video.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-volume-none.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-volume-strike.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-volume.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-web.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-wheelchair.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-widget.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-wrench.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-x-circle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-x.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-yen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-zoom-in.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/icons/svgs/fi-zoom-out.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.abide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.clearing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.equalizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.interchange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.joyride.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.magellan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.orbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/js/foundation/foundation.topbar.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/settings.py" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/css/custom.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/css/bootstrap.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/templates/base.html" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cc-dj-cms-heroku.iws" />
@@ -340,7 +32,7 @@
       <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
               <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -350,7 +42,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
@@ -360,7 +52,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -370,7 +62,17 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1011">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -380,17 +82,17 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/staticfiles/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/media/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.060851928" vertical-offset="0" max-vertical-offset="986">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
@@ -400,7 +102,7 @@
       <file leaf-file-name=".env" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
@@ -410,7 +112,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="405">
               <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding />
             </state>
@@ -420,7 +122,7 @@
       <file leaf-file-name="cookiecutter.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookiecutter.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="660">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="660">
               <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
@@ -444,6 +146,8 @@
         <option value="$PROJECT_DIR$/{{cookiecutter.repo_name}}/requirements.txt" />
         <option value="$PROJECT_DIR$/{{cookiecutter.repo_name}}/{{cookiecutter.repo_name}}/settings.py" />
         <option value="$PROJECT_DIR$/cookiecutter.json" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.repo_name}}/templates/base.html" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/css/custom.css.html" />
       </list>
     </option>
   </component>
@@ -479,7 +183,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -605,6 +308,58 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-dj-cms-heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-dj-cms-heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="{{cookiecutter.repo_name}}" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-dj-cms-heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc-dj-cms-heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="{{cookiecutter.repo_name}}" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -630,16 +385,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -731,9 +488,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -755,6 +509,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -820,7 +577,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -828,19 +585,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -849,9 +606,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -887,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="3525">
           <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-          <folding>
-            <element signature="e#331#340#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="3525">
           <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
-          <folding>
-            <element signature="e#331#340#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1034">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1034">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,25 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1599" max-vertical-offset="3705">
           <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-          <folding>
-            <element signature="e#331#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookiecutter.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="660">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,14 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1033,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1011">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/staticfiles/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1011">
@@ -1051,8 +763,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/media/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.060851928" vertical-offset="0" max-vertical-offset="986">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookiecutter.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="660">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1011">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
