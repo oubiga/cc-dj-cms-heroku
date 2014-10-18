@@ -5,8 +5,9 @@
 		<meta charset="utf-8" />
         <meta name="description" content="{% block description %}{% endblock %}" />
         <meta name="keywords" content="{% block keywords %}{% endblock %}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{% block title %}This is my new project home page{% endblock title %}</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% render_block "css" %}
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.css">
     </head>
