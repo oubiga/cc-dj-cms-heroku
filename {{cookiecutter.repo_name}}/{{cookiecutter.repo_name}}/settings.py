@@ -204,7 +204,6 @@ STATIC_ROOT = root('staticfiles')
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-
 if DEBUG == False:
     STATIC_URL = 'https://s3-eu-west-1.amazonaws.com/{{ aws_bucket_name }}/'
     STATICFILES_STORAGE = 'djlibcloud.storage.LibCloudStorage'
