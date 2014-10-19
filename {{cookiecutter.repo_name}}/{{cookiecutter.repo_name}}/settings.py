@@ -128,6 +128,7 @@ INSTALLED_APPS = (
     'filer',
     'easy_thumbnails',
     'reversion',
+    'django_extensions',
     'braces',
     'taggit',
     'debug_toolbar.apps.DebugToolbarConfig',
