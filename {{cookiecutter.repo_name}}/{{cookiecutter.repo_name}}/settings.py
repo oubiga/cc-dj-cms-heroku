@@ -126,11 +126,11 @@ INSTALLED_APPS = (
     'menus',
     'sekizai',
     'filer',
-    'cmsplugin_filer_file',
-    'cmsplugin_filer_folder',
-    'cmsplugin_filer_image',
-    'cmsplugin_filer_teaser',
-    'cmsplugin_filer_video',
+    # 'cmsplugin_filer_file',
+    # 'cmsplugin_filer_folder',
+    # 'cmsplugin_filer_image',
+    # 'cmsplugin_filer_teaser',
+    # 'cmsplugin_filer_video',
     'easy_thumbnails',
     'reversion',
     'django_extensions',
@@ -247,12 +247,14 @@ THUMBNAIL_PROCESSORS = (
 )
 
 MIGRATION_MODULES = {
+    'cms': 'cms.migrations_django',
+    'menus': 'menus.migrations_django',
+    'djangocms_text_ckeditor': 'djangocms_text_ckeditor.migrations_django',
     'filer': 'filer.migrations_django',
     'djangocms_file': 'djangocms_file.migrations_django',
-    'cmsplugin_filer_file': 'cmsplugin_filer_file.migrations_django',
-    'cmsplugin_filer_folder': 'cmsplugin_filer_folder.migrations_django',
-    'cmsplugin_filer_image': 'cmsplugin_filer_image.migrations_django',
-    'cmsplugin_filer_teaser': 'cmsplugin_filer_teaser.migrations_django',
-    'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
-
+    # 'cmsplugin_filer_file': 'cmsplugin_filer_file.migrations_django',
+    # 'cmsplugin_filer_folder': 'cmsplugin_filer_folder.migrations_django',
+    # 'cmsplugin_filer_image': 'cmsplugin_filer_image.migrations_django',
+    # 'cmsplugin_filer_teaser': 'cmsplugin_filer_teaser.migrations_django',
+    # 'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
 }
