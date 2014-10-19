@@ -240,3 +240,8 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters',
 )
+
+MIGRATION_MODULES = {
+    'filer': 'filer.migrations_django',
+
+}
