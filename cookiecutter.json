@@ -31,6 +31,7 @@
     "requirements_django_filer": "django-filer==0.9.7",
     "requirements_cmsplugin_filer": "cmsplugin-filer==0.10",
     "requirements_django_reversion": "django-reversion==1.8.1",
+    "requirements_django_extensions": "django-extensions==1.4.4",
     "requirements_dj_libcloud": "dj-libcloud==0.2.0",
     "requirements_django_braces": "django-braces==1.4.0",
     "requirements_django_debug_toolbar": "django-debug-toolbar==1.2.1",

@@ -16,6 +16,7 @@
 # -e git+https://github.com/stefanfoulis/django-filer.git@develop#egg=django-filer
 {{cookiecutter.requirements_cmsplugin_filer}}
 {{cookiecutter.requirements_django_reversion}}
+{{cookiecutter.requirements_django_extensions}}
 {{cookiecutter.requirements_dj_libcloud}}
 {{cookiecutter.requirements_django_braces}}
 {{cookiecutter.requirements_django_debug_toolbar}}
