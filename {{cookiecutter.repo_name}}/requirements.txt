@@ -13,6 +13,7 @@
 {{cookiecutter.requirements_djangocms_text_ckeditor}}
 {{cookiecutter.requirements_pillow}}
 {{cookiecutter.requirements_django_filer}}
+# -e git+https://github.com/stefanfoulis/django-filer.git@develop#egg=django-filer
 {{cookiecutter.requirements_cmsplugin_filer}}
 {{cookiecutter.requirements_django_reversion}}
 {{cookiecutter.requirements_dj_libcloud}}
