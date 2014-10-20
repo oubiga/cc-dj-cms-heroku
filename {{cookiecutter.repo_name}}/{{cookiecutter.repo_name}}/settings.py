@@ -230,7 +230,7 @@ if DEBUG == False:
 ########################
 
 # Tell the toolbar not to adjust your settings automatically
-DEBUG_TOOLBAR_PATCH_SETTINGS = False
+# DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
 
 ################
