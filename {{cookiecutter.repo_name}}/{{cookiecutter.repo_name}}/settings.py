@@ -211,7 +211,8 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 if DEBUG == False:
-    STATIC_URL = 'https://s3-eu-west-1.amazonaws.com/{{ aws_bucket_name }}/'
+    AWS_BUCKET_NAME = os.environ.get('AWS_BUCKET_NAME')
+    STATIC_URL = 'https://s3-eu-west-1.amazonaws.com/{}/'.format(AWS_BUCKET_NAME)
     STATICFILES_STORAGE = 'djlibcloud.storage.LibCloudStorage'
     LIBCLOUD_PROVIDERS = {
         'amazon_s3_eu_west': {
