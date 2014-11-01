@@ -14,7 +14,7 @@
     "aws_access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     "aws_secret_key": "AKIAJJJDYLTD7D73JMNQ",
     "aws_bucket_name": "whatever",
-    "requirements_django": "django==1.7",
+    "requirements_django": "django==1.7.1",
     "requirements_gunicorn": "gunicorn==19.1.1",
     "requirements_psycopg2": "psycopg2==2.5.4",
     "requirements_honcho": "honcho==0.5.0",
