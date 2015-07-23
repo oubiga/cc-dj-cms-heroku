@@ -9,7 +9,6 @@
 {{cookiecutter.requirements_django_classy_tags}}
 {{cookiecutter.requirements_html5lib}}
 {{cookiecutter.requirements_django_treebeard}}
-{{cookiecutter.requirements_django_mptt}}
 {{cookiecutter.requirements_django_sekizai}}
 {{cookiecutter.requirements_djangocms_admin_style}}
 {{cookiecutter.requirements_djangocms_text_ckeditor}}
