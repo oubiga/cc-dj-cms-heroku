@@ -2,25 +2,25 @@
 {{cookiecutter.requirements_gunicorn}}
 {{cookiecutter.requirements_psycopg2}}
 {{cookiecutter.requirements_honcho}}
+{{cookiecutter.requirements_boto}}
 {{cookiecutter.requirements_dj_database_url}}
 {{cookiecutter.requirements_dj_static}}
 {{cookiecutter.requirements_django_cms}}
-# -e git+https://github.com/divio/django-cms.git@support/3.0.x#egg=django-cms
 {{cookiecutter.requirements_django_classy_tags}}
 {{cookiecutter.requirements_html5lib}}
+{{cookiecutter.requirements_django_treebeard}}
 {{cookiecutter.requirements_django_mptt}}
 {{cookiecutter.requirements_django_sekizai}}
 {{cookiecutter.requirements_djangocms_admin_style}}
 {{cookiecutter.requirements_djangocms_text_ckeditor}}
+{{cookiecutter.requirements_djangocms_link}}
 {{cookiecutter.requirements_pillow}}
+{{cookiecutter.requirements_easy_thumbnails}}
 {{cookiecutter.requirements_djangocms_picture}}
 {{cookiecutter.requirements_django_filer}}
-# -e git+https://github.com/stefanfoulis/django-filer.git@develop#egg=django-filer
 {{cookiecutter.requirements_cmsplugin_filer}}
-# -e git+https://github.com/stefanfoulis/cmsplugin-filer.git@develop#egg=cmsplugin-filer
 {{cookiecutter.requirements_django_reversion}}
 {{cookiecutter.requirements_django_extensions}}
-{{cookiecutter.requirements_dj_libcloud}}
 {{cookiecutter.requirements_django_braces}}
 {{cookiecutter.requirements_django_debug_toolbar}}
 {{cookiecutter.requirements_django_taggit}}
