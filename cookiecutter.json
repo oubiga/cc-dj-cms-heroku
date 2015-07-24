@@ -22,6 +22,7 @@
     "requirements_dj_database_url": "dj-database-url==0.3.0",
     "requirements_dj_static": "dj-static==0.0.6",
     "requirements_django_cms": "django-cms==3.1.2",
+    "requirements_django_parler": "django-parler==1.4",
     "requirements_django_classy_tags": "django-classy-tags==0.6.2",
     "requirements_html5lib": "html5lib==0.999",
     "requirements_django_treebeard": "django-treebeard==3.0",

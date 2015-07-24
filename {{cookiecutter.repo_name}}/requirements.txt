@@ -6,6 +6,7 @@
 {{cookiecutter.requirements_dj_database_url}}
 {{cookiecutter.requirements_dj_static}}
 {{cookiecutter.requirements_django_cms}}
+{{cookiecutter.requirements_django_parler}}
 {{cookiecutter.requirements_django_classy_tags}}
 {{cookiecutter.requirements_html5lib}}
 {{cookiecutter.requirements_django_treebeard}}
