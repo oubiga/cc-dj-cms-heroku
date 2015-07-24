@@ -3,6 +3,7 @@
 {{cookiecutter.requirements_psycopg2}}
 {{cookiecutter.requirements_honcho}}
 {{cookiecutter.requirements_boto}}
+{{cookiecutter.requirements_storages}}
 {{cookiecutter.requirements_dj_database_url}}
 {{cookiecutter.requirements_dj_static}}
 {{cookiecutter.requirements_django_cms}}

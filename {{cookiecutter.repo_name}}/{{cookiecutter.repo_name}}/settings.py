@@ -243,8 +243,8 @@ if DEBUG == False:
     STATIC_ROOT = "/static/"
     MEDIA_ROOT = "/media/"
 
-    DEFAULT_FILE_STORAGE = 'works.s3utils.S3MediaStorage'
-    STATICFILES_STORAGE = 'works.s3utils.S3StaticStorage'
+    # DEFAULT_FILE_STORAGE = 'myapp.s3utils.S3MediaStorage'
+    # STATICFILES_STORAGE = 'myapp.s3utils.S3StaticStorage'
 
     AWS_ACCESS_KEY = os.environ.get('AWS_ACCESS_KEY')
     AWS_SECRET_KEY = os.environ.get('AWS_SECRET_KEY')

@@ -19,6 +19,7 @@
     "requirements_psycopg2": "psycopg2==2.6.1",
     "requirements_honcho": "honcho==0.6.6",
     "requirements_boto": "boto==2.38.0",
+    "requirements_boto": "django-storages-redux==1.2.3",
     "requirements_dj_database_url": "dj-database-url==0.3.0",
     "requirements_dj_static": "dj-static==0.0.6",
     "requirements_django_cms": "django-cms==3.1.2",
