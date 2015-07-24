@@ -8,10 +8,11 @@ https://docs.djangoproject.com/en/{{ cookiecutter.django_version }}/howto/deploy
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ cookiecutter.repo_name }}.settings")
-
 
 from django.core.wsgi import get_wsgi_application
+
 from dj_static import Cling
 
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ cookiecutter.repo_name }}.settings")
 application = Cling(get_wsgi_application())

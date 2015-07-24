@@ -96,6 +96,17 @@ CMS_LANGUAGES = {
     },
 }
 
+PARLER_LANGUAGES = {
+    1: (
+        {'code': 'en',},
+        {'code': 'es',},
+        {'code': 'gl',},
+    ),
+    'default': {
+        'fallback': 'en',             # defaults to PARLER_DEFAULT_LANGUAGE_CODE
+        'hide_untranslated': False,   # the default; let .active_translations() return fallbacks too.
+    }
+}
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
@@ -120,24 +131,31 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+
     'djangocms_text_ckeditor', # Before 'cms' entry
     'cms',
-    'mptt',
     'menus',
     'sekizai',
     'filer',
-    # 'djangocms_picture'',
-    # 'cmsplugin_filer_file',
-    # 'cmsplugin_filer_folder',
-    # 'cmsplugin_filer_image',
-    # 'cmsplugin_filer_teaser',
-    # 'cmsplugin_filer_video',
+    'mptt',
+    'treebeard',
+    'parler',
+
+    'cmsplugin_filer_file',
+    'cmsplugin_filer_folder',
+    'cmsplugin_filer_link',
+    'cmsplugin_filer_image',
+    'cmsplugin_filer_teaser',
+    'cmsplugin_filer_video',
+
+    'storages',
+    'djangocms_link',
     'easy_thumbnails',
     'reversion',
     'django_extensions',
     'braces',
     'taggit',
-    'debug_toolbar.apps.DebugToolbarConfig',
+    # 'debug_toolbar',
 )
 
 # List of locations of the template source files, in search order.
@@ -184,11 +202,22 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = '{{ cookiecutter.repo_name }}.urls'
 
-# The Python dotted path to the WSGI application that Django's internal servers
-# (runserver, runfcgi) will use. If `None`, the return value of
-# 'django.core.wsgi.get_wsgi_application' is used, thus preserving the same
-# behavior as previous versions of Django. Otherwise this should point to an
-# actual WSGI application object.
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
 WSGI_APPLICATION = '{{ cookiecutter.repo_name }}.wsgi.application'
 
 MEDIA_ROOT = root('media')
@@ -207,25 +236,32 @@ STATICFILES_DIRS = (
     root('static'),
 )
 
-STATIC_ROOT = root('staticfiles')
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 if DEBUG == False:
-    AWS_BUCKET_NAME = os.environ.get('AWS_BUCKET_NAME')
-    STATIC_URL = 'https://s3-eu-west-1.amazonaws.com/{}/'.format(AWS_BUCKET_NAME)
-    STATICFILES_STORAGE = 'djlibcloud.storage.LibCloudStorage'
-    LIBCLOUD_PROVIDERS = {
-        'amazon_s3_eu_west': {
-            'type': 'libcloud.storage.types.Provider.S3_EU_WEST',
-            'user': os.environ.get('AWS_ACCESS_KEY'),
-            'key': os.environ.get('AWS_SECRET_KEY'),
-            'bucket': '{{ aws_bucket_name }}',
-            'secure': True,
-            },
-        }
+    STATIC_ROOT = "/static/"
+    MEDIA_ROOT = "/media/"
 
-    DEFAULT_LIBCLOUD_PROVIDER = 'amazon_s3_eu_west'
+    DEFAULT_FILE_STORAGE = 'works.s3utils.S3MediaStorage'
+    STATICFILES_STORAGE = 'works.s3utils.S3StaticStorage'
+
+    AWS_ACCESS_KEY = os.environ.get('AWS_ACCESS_KEY')
+    AWS_SECRET_KEY = os.environ.get('AWS_SECRET_KEY')
+    AWS_BUCKET_NAME = os.environ.get('AWS_BUCKET_NAME')
+
+
+    STATIC_URL = 'http://{}.s3.amazonaws.com/static/'.format(AWS_BUCKET_NAME)
+    MEDIA_URL = 'http://{}.s3.amazonaws.com/media/'.format(AWS_BUCKET_NAME)
+
+
+    AWS_REDUCED_REDUNDANCY = False # We enable this server-wide on our staging server's S3 buckets
+    AWS_PRELOAD_METADATA = True # You want this to be on!
+    AWS_S3_SECURE_URLS = False
+    AWS_HEADERS = { 'Cache-Control': 'max-age=2592000' }
+    AWS_QUERYSTRING_AUTH = False
+
+
 
 ########################
 # DJANGO DEBUG TOOLBAR #
@@ -249,15 +285,12 @@ THUMBNAIL_PROCESSORS = (
 )
 
 MIGRATION_MODULES = {
-    'cms': 'cms.migrations_django',
-    'menus': 'menus.migrations_django',
     'djangocms_text_ckeditor': 'djangocms_text_ckeditor.migrations_django',
-    'filer': 'filer.migrations_django',
-    'djangocms_file': 'djangocms_file.migrations_django',
-    # 'djangocms_picture': 'djangocms_picture.migrations_django',
-    # 'cmsplugin_filer_file': 'cmsplugin_filer_file.migrations_django',
-    # 'cmsplugin_filer_folder': 'cmsplugin_filer_folder.migrations_django',
-    # 'cmsplugin_filer_image': 'cmsplugin_filer_image.migrations_django',
-    # 'cmsplugin_filer_teaser': 'cmsplugin_filer_teaser.migrations_django',
-    # 'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
+    'djangocms_link': 'djangocms_link.migrations_django',
+    'cmsplugin_filer_file': 'cmsplugin_filer_file.migrations_django',
+    'cmsplugin_filer_folder': 'cmsplugin_filer_folder.migrations_django',
+    'cmsplugin_filer_link': 'cmsplugin_filer_link.migrations_django',
+    'cmsplugin_filer_image': 'cmsplugin_filer_image.migrations_django',
+    'cmsplugin_filer_teaser': 'cmsplugin_filer_teaser.migrations_django',
+    'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
 }
