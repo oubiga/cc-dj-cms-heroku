@@ -250,10 +250,8 @@ if DEBUG == False:
     AWS_SECRET_KEY = os.environ.get('AWS_SECRET_KEY')
     AWS_BUCKET_NAME = os.environ.get('AWS_BUCKET_NAME')
 
-
     STATIC_URL = 'http://{}.s3.amazonaws.com/static/'.format(AWS_BUCKET_NAME)
     MEDIA_URL = 'http://{}.s3.amazonaws.com/media/'.format(AWS_BUCKET_NAME)
-
 
     AWS_REDUCED_REDUNDANCY = False # We enable this server-wide on our staging server's S3 buckets
     AWS_PRELOAD_METADATA = True # You want this to be on!
@@ -285,12 +283,5 @@ THUMBNAIL_PROCESSORS = (
 )
 
 MIGRATION_MODULES = {
-    'djangocms_text_ckeditor': 'djangocms_text_ckeditor.migrations_django',
-    'djangocms_link': 'djangocms_link.migrations_django',
-    'cmsplugin_filer_file': 'cmsplugin_filer_file.migrations_django',
-    'cmsplugin_filer_folder': 'cmsplugin_filer_folder.migrations_django',
-    'cmsplugin_filer_link': 'cmsplugin_filer_link.migrations_django',
-    'cmsplugin_filer_image': 'cmsplugin_filer_image.migrations_django',
-    'cmsplugin_filer_teaser': 'cmsplugin_filer_teaser.migrations_django',
-    'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
+
 }
